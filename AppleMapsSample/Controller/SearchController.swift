@@ -10,7 +10,7 @@ import MapKit
 import Combine
 
 class SearchController: UIViewController {
-  
+   
   // MARK: - Public Properties
   
   var closure: ((String?, CLLocationCoordinate2D?) ->())?
